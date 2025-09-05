@@ -29,14 +29,7 @@ function App() {
     <Router>
       <div className="App">
         {/* 🔹 شريط علوي بسيط فيه اللوجو وروابط */}
-        <header style={{ padding: '10px', background: '#f0f0f0', display: 'flex', alignItems: 'center', gap: '20px' }}>
-          <img src={logo} alt="SBS Logo" style={{ height: '40px' }} />
-          <nav>
-            <Link to="/">التسجيل</Link> |{" "}
-            <Link to="/login">تسجيل الدخول</Link> |{" "}
-            <Link to="/dashboard">لوحة التحكم</Link>
-          </nav>
-        </header>
+    
 
         {/* 🔹 الراوتر */}
         <main style={{ padding: '20px' }}>
